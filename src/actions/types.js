@@ -1,0 +1,4 @@
+export const GET_TEAMS = "GET_TEAMS"
+export const GET_LEAGUES = "GET_LEAGUES"
+export const GET_PREMIUM_MATCHES = "GET_PREMIUM_MATCHES"
+export const GET_ALL_PRO_MATCHES = "GET_ALL_PRO_MATCHES"
