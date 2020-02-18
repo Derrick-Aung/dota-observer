@@ -1,38 +1,210 @@
+body{
+  font-family: 'Roboto', serif;
+  background-color: #cbd5df;
+}
+
+a{
+  color: #212529;
+}
+
+thead{
+  background: #d1d7de;
+}
+
+tr{
+  background-color: transparent
+}
+
+th{
+  letter-spacing: 0.75px;
+}
+
+.card-container{
+  max-width: 1000px;
+  margin: 3rem auto;
+}
+
+.btn{
+  background-color: #38b2ac;
+  color: #fff;
+  border-color: #43d4cd;
+}
+
+.card-header{
+  border-bottom: 1px solid #ccc;
+}
+
+.card-header h3{
+  font-weight: bold;
+}
+
+.card-body{
+  background-color: #f7fafb;
+  border-radius:  0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
+}
+
+.card{
+  background-color: #e2e8f0;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.18);
+  border: none;
+  color: #485361;
+}
+
+a:hover {
+  color: #292f38;
+  text-decoration: underline;
+}
+
+.table-hover .table-active:hover {
+  background-color: #d1d7de;
+}
+
+.navbar-brand{
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.jumbotron{
+  background-color: #e2e8f0;
+  box-shadow: 0px 0px 8px rgba(0,0,0,0.18);
+}
+
+.primary-header{
+  letter-spacing: 1px;
+  margin-bottom: 2.5rem;
+  font-weight: 600;
+}
+
+.nav-link{
+  letter-spacing: 0.5px;
+
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.team-logo {
+  max-height: 60px;
+}
+
+.hero-img {
+  max-height: 36px;
+}
+
+.item-img {
+  max-height: 30px;
+}
+
+.radiant {
+  position: relative;
+  right: 28%;
+}
+
+.radiant-kills {
+  color: rgb(122, 173, 58);
+  font-size: 3rem;
+}
+
+.dire {
+  position: relative;
+  left: 28%;
+}
+  
+.dire-kills {
+  color: rgb(170, 68, 68);
+  font-size: 3rem;
+}
+
+.radiant-color {
+  color: rgb(122, 173, 58);
+}
+
+.dire-color {
+  color: rgb(170, 68, 68);
+}
+  
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.main-info{
+  background-color: #2d3848;
   color: white;
+  border-radius: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+.text-small{
+  font-size: 1.5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.victory-info{
+  font-size: 2rem;
+}
+
+header{
+  padding: 1rem;
+}
+
+.table-container{ 
+  overflow: auto;
+}
+
+.align-left{
+  text-align: left;
+}
+
+.align-right{
+  text-align: right;
+}
+
+.table-active, .table-active>th, .table-active>td{
+  background-color: transparent;
+  vertical-align: middle;
+}
+
+.navbar{
+  border-radius: 0 1rem;
+  background-color: #142850;
+}
+
+.fa-eye{
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.tab-pane{
+  background-color: #f7fafb;
+  border-radius: 0 0.6rem 0.6rem 0.6rem;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.18);
+  padding: 1rem;
+}
+
+.nav-item{
+  background-color: transparent;
+  color: #212529;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.nav-tabs .nav-link.active{
+  background-color: #f7fafb;
+  border: none; 
+}
+
+.nav-tabs {
+  border-bottom: none;
+}
+
+.replay{
+  margin-top: 2rem;
+}
+
+.replay a{
+  text-transform: uppercase;
+  color: #fff !important;
 }
